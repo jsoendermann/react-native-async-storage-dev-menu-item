@@ -24,5 +24,4 @@ public class AsyncStorageDevMenuItemPackage implements ReactPackage {
 
     return modules;
   }
-
 }
