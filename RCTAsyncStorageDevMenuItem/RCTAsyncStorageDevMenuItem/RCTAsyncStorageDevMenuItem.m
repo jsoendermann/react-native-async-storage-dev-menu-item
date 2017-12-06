@@ -18,7 +18,7 @@ RCT_EXPORT_MODULE();
 RCT_EXPORT_METHOD(initialize)
 {
   [self.bridge.devMenu addItem:[RCTDevMenuItem buttonItemWithTitleBlock:^NSString *{
-    return @"Log AsyncStorage contents";
+    return @"Log AsyncStorage";
   } handler:^{
     [self sendEventWithName:@"LogAsyncStorage" body:nil];
   }]];

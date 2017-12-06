@@ -30,7 +30,7 @@ public class AsyncStorageDevMenuItemModule extends ReactContextBaseJavaModule {
       .getReactInstanceManager()
       .getDevSupportManager();
 
-    devSupportManager.addCustomDevOption("Log AsyncStorage contents", new DevOptionHandler() {
+    devSupportManager.addCustomDevOption("Log AsyncStorage", new DevOptionHandler() {
         @Override
         public void onOptionSelected() {
           getReactApplicationContext()
