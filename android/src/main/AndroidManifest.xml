@@ -1,0 +1,4 @@
+<manifest
+  xml:android="http://schemas.android.com/apk/res/android"
+  package="com.primlo.asyncstoragedevmenuitem">
+</manifest>

@@ -1,0 +1,15 @@
+{
+  "name": "react-native-async-storage-dev-menu-item",
+  "version": "0.0.3",
+  "main": "index.js",
+  "repository":
+    "https://github.com/jsoendermann/react-native-async-storage-dev-menu-item",
+  "author": "Jan Soendermann <jan.soendermann+git@gmail.com>",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "dependencies": {
+    "react-native-log-async-storage": "^0.0.1"
+  }
+}
